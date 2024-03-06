@@ -1,248 +1,249 @@
 {
-    "users": {
-      "id": "a1",
-      "username": "Amanuel"
+  "users": {
+    "id": "a1",
+    "username": "Amanuel"
+  },
+  "models": [
+    {
+      "id": "m1",
+      "name": "Image Classifier",
+      "description": "Classifies images into predefined categories with high accuracy.",
+      "creator": "a1",
+      "coverImage": "https://images.unsplash.com/photo-1535054820380-92c41678b087?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8aCxxLHd8fHx8fHwxNzA5NzU0MjYy&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1080",
+      "capabilities": [
+        "Identify objects and scenes in images",
+        "Assign labels with confidence scores",
+        "Customizable for specific tasks"
+      ],
+      "applications": [
+        "Content moderation",
+        "Self-driving cars",
+        "Medical image analysis"
+      ],
+      "implementation": [
+        {
+          "id": "i1",
+          "languageOrFramework": "React.js",
+          "code": "// Replace with actual React.js code implementation"
+        }
+      ]
     },
-    "models": [
-      {
-        "id": "m1",
-        "name": "Image Classifier",
-        "description": "Classifies images into predefined categories with high accuracy.",
-        "creator": "a1",
-        "coverImage": "https://images.unsplash.com/photo-1623412210782-f0692c9663e6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWd4ZWxmZWF8fHx8fGVufDB8fHw%3D",
-        "capabilities": [
-          "Identify objects and scenes in images",
-          "Assign labels with confidence scores",
-          "Customizable for specific tasks"
-        ],
-        "applications": [
-          "Content moderation",
-          "Self-driving cars",
-          "Medical image analysis"
-        ],
-        "implementation": [
-          {
-            "id": "i1",
-            "languageOrFramework": "React.js",
-            "code": "// Replace with actual React.js code implementation"
-          }
-        ]
-      },
-      {
-        "id": "m2",
-        "name": "Text Summarizer",
-        "description": "Generates concise summaries of lengthy text passages, preserving key information.",
-        "creator": "a1",
-        "coverImage": "https://images.unsplash.com/photo-1496203343809-8f50f31333ca?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWd4ZWxmZWF8fHx8fGVufDB8fHw%3D",
-        "capabilities": [
-          "Extract main ideas and points",
-          "Reduce text length while maintaining meaning",
-          "Tailor summaries to different lengths"
-        ],
-        "applications": [
-          "Research paper analysis",
-          "News article comprehension",
-          "Educational materials simplification"
-        ],
-        "implementation": [
-          {
-            "id": "i1",
-            "languageOrFramework": "Python",
-            "code": "// Replace with actual Python code implementation"
-          }
-        ]
-      },
-      {
-        "id": "m3",
-        "name": "Music Generator",
-        "description": "Composes original music pieces in various styles and genres based on user input.",
-        "creator": "a1",
-        "coverImage": "https://images.unsplash.com/photo-1583426179932-37a53e257f2e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWd4ZWxmZWF8fHx8fGVufDB8fHw%3D",
-        "capabilities": [
-          "Generate different musical elements like melodies, harmonies, and rhythms",
-          "Adapt to different tempos and moods",
-          "Learn from user preferences and feedback"
-        ],
-        "applications": [
-          "Film and video scoring",
-          "Personalized music recommendations",
-          "Interactive music experiences"
-        ],
-        "implementation": [
-          {
-            "id": "i1",
-            "languageOrFramework": "TensorFlow",
-            "code": "// Replace with actual TensorFlow code implementation"
-          }
-        ]
-      },
-      {
-        "id": "m4",
-        "name": "Language Translator",
-        "description": "Translates text between multiple languages with high accuracy.",
-        "creator": "a1",
-        "coverImage": "https://images.unsplash.com/photo-1534595798308-4c8e8de0a8c4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWd4ZWxmZWF8fHx8fGVufDB8fHw%3D",
-        "capabilities": [
-          "Supports translation for a wide range of languages",
-          "Maintains contextual accuracy",
-          "Integrates with various applications"
-        ],
-        "applications": [
-          "Global communication",
-          "Travel assistance",
-          "Cross-language content understanding"
-        ],
-        "implementation": [
-          {
-            "id": "i1",
-            "languageOrFramework": "Java",
-            "code": "// Replace with actual Java code implementation"
-          }
-        ]
-      },
-      {
-        "id": "m5",
-        "name": "Speech Recognition",
-        "description": "Converts spoken language into text with high accuracy.",
-        "creator": "a1",
-        "coverImage": "https://images.unsplash.com/photo-1533156906633-2f6d9449bd45?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWd4ZWxmZWF8fHx8fGVufDB8fHw%3D",
-        "capabilities": [
-          "Real-time transcription",
-          "Supports multiple languages",
-          "Works in noisy environments"
-        ],
-        "applications": [
-          "Voice assistants",
-          "Transcription services",
-          "Accessibility applications"
-        ],
-        "implementation": [
-          {
-            "id": "i1",
-            "languageOrFramework": "C#",
-            "code": "// Replace with actual C# code implementation"
-          }
-        ]
-      },
-      {
-        "id": "m6",
-        "name": "Recommendation System",
-        "description": "Provides personalized recommendations based on user behavior and preferences.",
-        "creator": "a1",
-        "coverImage": "https://images.unsplash.com/photo-1514450259271-138d6ad28089?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWd4ZWxmZWF8fHx8fGVufDB8fHw%3D",
-        "capabilities": [
-          "Collaborative and content-based filtering",
-          "Adapts to changing user preferences",
-          "Handles large datasets efficiently"
-        ],
-        "applications": [
-          "E-commerce product recommendations",
-          "Movie and music suggestions",
-          "Content streaming platforms"
-        ],
-        "implementation": [
-          {
-            "id": "i1",
-            "languageOrFramework": "Scala",
-            "code": "// Replace with actual Scala code implementation"
-          }
-        ]
-      },
-      {
-        "id": "m7",
-        "name": "Virtual Assistant",
-        "description": "Performs tasks and provides information based on natural language commands.",
-        "creator": "a1",
-        "coverImage": "https://images.unsplash.com/photo-1560807707-8cc77767d783?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWd4ZWxmZWF8fHx8fGVufDB8fHw%3D",
-        "capabilities": [
-          "Speech recognition",
-          "Task automation",
-          "Integration with various services"
-        ],
-        "applications": [
-          "Scheduling appointments",
-          "Weather updates",
-          "Smart home control"
-        ],
-        "implementation": [
-          {
-            "id": "i1",
-            "languageOrFramework": "Node.js",
-            "code": "// Replace with actual Node.js code implementation"
-          }
-        ]
-      },
-      {
-        "id": "m8",
-        "name": "Stock Price Predictor",
-        "description": "Predicts future stock prices based on historical data and market trends.",
-        "creator": "a1",
-        "coverImage": "https://images.unsplash.com/photo-1549315752-465cbbd96eb1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWd4ZWxmZWF8fHx8fGVufDB8fHw%3D",
-        "capabilities": [
-          "Time series analysis",
-          "Machine learning algorithms",
-          "Real-time market data integration"
-        ],
-        "applications": [
-          "Financial investment",
-          "Portfolio management",
-          "Market trend analysis"
-        ],
-        "implementation": [
-          {
-            "id": "i1",
-            "languageOrFramework": "R",
-            "code": "// Replace with actual R code implementation"
-          }
-        ]
-      },
-      {
-        "id": "m9",
-        "name": "Face Recognition",
-        "description": "Identifies and verifies individuals based on facial features.",
-        "creator": "a1",
-        "coverImage": "https://images.unsplash.com/photo-1541696430-08d5ca6a1ead?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWd4ZWxmZWF8fHx8fGVufDB8fHw%3D",
-        "capabilities": [
-          "Biometric authentication",
-          "Works in varying lighting conditions",
-          "Integration with security systems"
-        ],
-        "applications": [
-          "Access control systems",
-          "Criminal identification",
-          "User authentication"
-        ],
-        "implementation": [
-          {
-            "id": "i1",
-            "languageOrFramework": "OpenCV",
-            "code": "// Replace with actual OpenCV code implementation"
-          }
-        ]
-      },
-      {
-        "id": "m10",
-        "name": "Chatbot",
-        "description": "Engages in natural language conversations and provides assistance.",
-        "creator": "a1",
-        "coverImage": "https://images.unsplash.com/photo-1598639777253-54d63a8dc7c9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWd4ZWxmZWF8fHx8fGVufDB8fHw%3D",
-        "capabilities": [
-          "Natural language processing",
-          "Context-aware responses",
-          "Integration with external APIs"
-        ],
-        "applications": [
-          "Customer support",
-          "Information retrieval",
-          "Conversational interfaces"
-        ],
-        "implementation": [
-          {
-            "id": "i1",
-            "languageOrFramework": "Django",
-            "code": "// Replace with actual Django code implementation"
-          }
-        ]
-      }
-    ]
-  }
+    {
+      "id": "m2",
+      "name": "Text Summarizer",
+      "description": "Generates concise summaries of lengthy text passages, preserving key information.",
+      "creator": "a1",
+      "coverImage": "https://images.unsplash.com/photo-1532095608498-0718d887d70e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8Y3JvcCxmbSxoLHEsd3x8fHx8fDE3MDk3NTQzOTE&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1080",
+      "capabilities": [
+        "Extract main ideas and points",
+        "Reduce text length while maintaining meaning",
+        "Tailor summaries to different lengths"
+      ],
+      "applications": [
+        "Research paper analysis",
+        "News article comprehension",
+        "Educational materials simplification"
+      ],
+      "implementation": [
+        {
+          "id": "i1",
+          "languageOrFramework": "Python",
+          "code": "// Replace with actual Python code implementation"
+        }
+      ]
+    },
+    {
+      "id": "m3",
+      "name": "Music Generator",
+      "description": "Composes original music pieces in various styles and genres based on user input.",
+      "creator": "a1",
+      "coverImage": "https://images.unsplash.com/photo-1541874514405-34811ec694af?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8Y3JvcCxmbSxoLHEsd3x8fHx8fDE3MDk3NTQ0NTY&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1080",
+      "capabilities": [
+        "Generate different musical elements like melodies, harmonies, and rhythms",
+        "Adapt to different tempos and moods",
+        "Learn from user preferences and feedback"
+      ],
+      "applications": [
+        "Film and video scoring",
+        "Personalized music recommendations",
+        "Interactive music experiences"
+      ],
+      "implementation": [
+        {
+          "id": "i1",
+          "languageOrFramework": "TensorFlow",
+          "code": "// Replace with actual TensorFlow code implementation"
+        }
+      ]
+    },
+    {
+      "id": "m4",
+      "name": "Language Translator",
+      "description": "Translates text between multiple languages with high accuracy.",
+      "creator": "a1",
+      "coverImage": "https://images.unsplash.com/photo-1534595798308-4c8e8de0a8c4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWd4ZWxmZWF8fHx8fGVufDB8fHw%3D",
+      "capabilities": [
+        "Supports translation for a wide range of languages",
+        "Maintains contextual accuracy",
+        "Integrates with various applications"
+      ],
+      "applications": [
+        "Global communication",
+        "Travel assistance",
+        "Cross-language content understanding"
+      ],
+      "implementation": [
+        {
+          "id": "i1",
+          "languageOrFramework": "Java",
+          "code": "// Replace with actual Java code implementation"
+        }
+      ]
+    },
+    {
+      "id": "m5",
+      "name": "Speech Recognition",
+      "description": "Converts spoken language into text with high accuracy.",
+      "creator": "a1",
+      "coverImage": "https://images.unsplash.com/photo-1533156906633-2f6d9449bd45?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWd4ZWxmZWF8fHx8fGVufDB8fHw%3D",
+      "capabilities": [
+        "Real-time transcription",
+        "Supports multiple languages",
+        "Works in noisy environments"
+      ],
+      "applications": [
+        "Voice assistants",
+        "Transcription services",
+        "Accessibility applications"
+      ],
+      "implementation": [
+        {
+          "id": "i1",
+          "languageOrFramework": "C#",
+          "code": "// Replace with actual C# code implementation"
+        }
+      ]
+    },
+    {
+      "id": "m6",
+      "name": "Recommendation System",
+      "description": "Provides personalized recommendations based on user behavior and preferences.",
+      "creator": "a1",
+      "coverImage": "https://images.unsplash.com/photo-1514450259271-138d6ad28089?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWd4ZWxmZWF8fHx8fGVufDB8fHw%3D",
+      "capabilities": [
+        "Collaborative and content-based filtering",
+        "Adapts to changing user preferences",
+        "Handles large datasets efficiently"
+      ],
+      "applications": [
+        "E-commerce product recommendations",
+        "Movie and music suggestions",
+        "Content streaming platforms"
+      ],
+      "implementation": [
+        {
+          "id": "i1",
+          "languageOrFramework": "Scala",
+          "code": "// Replace with actual Scala code implementation"
+        }
+      ]
+    },
+    {
+      "id": "m7",
+      "name": "Virtual Assistant",
+      "description": "Performs tasks and provides information based on natural language commands.",
+      "creator": "a1",
+      "coverImage": "https://images.unsplash.com/photo-1560807707-8cc77767d783?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWd4ZWxmZWF8fHx8fGVufDB8fHw%3D",
+      "capabilities": [
+        "Speech recognition",
+        "Task automation",
+        "Integration with various services"
+      ],
+      "applications": [
+        "Scheduling appointments",
+        "Weather updates",
+        "Smart home control"
+      ],
+      "implementation": [
+        {
+          "id": "i1",
+          "languageOrFramework": "Node.js",
+          "code": "// Replace with actual Node.js code implementation"
+        }
+      ]
+    },
+    {
+      "id": "m8",
+      "name": "Stock Price Predictor",
+      "description": "Predicts future stock prices based on historical data and market trends.",
+      "creator": "a1",
+      "coverImage": "https://images.unsplash.com/photo-1549315752-465cbbd96eb1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWd4ZWxmZWF8fHx8fGVufDB8fHw%3D",
+      "capabilities": [
+        "Time series analysis",
+        "Machine learning algorithms",
+        "Real-time market data integration"
+      ],
+      "applications": [
+        "Financial investment",
+        "Portfolio management",
+        "Market trend analysis"
+      ],
+      "implementation": [
+        {
+          "id": "i1",
+          "languageOrFramework": "R",
+          "code": "// Replace with actual R code implementation"
+        }
+      ]
+    },
+    {
+      "id": "m9",
+      "name": "Face Recognition",
+      "description": "Identifies and verifies individuals based on facial features.",
+      "creator": "a1",
+      "coverImage": "https://images.unsplash.com/photo-1541696430-08d5ca6a1ead?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWd4ZWxmZWF8fHx8fGVufDB8fHw%3D",
+      "capabilities": [
+        "Biometric authentication",
+        "Works in varying lighting conditions",
+        "Integration with security systems"
+      ],
+      "applications": [
+        "Access control systems",
+        "Criminal identification",
+        "User authentication"
+      ],
+      "implementation": [
+        {
+          "id": "i1",
+          "languageOrFramework": "OpenCV",
+          "code": "// Replace with actual OpenCV code implementation"
+        }
+      ]
+    },
+    {
+      "id": "m10",
+      "name": "Chatbot",
+      "description": "Engages in natural language conversations and provides assistance.",
+      "creator": "a1",
+      "coverImage": "https://images.unsplash.com/photo-1598639777253-54d63a8dc7c9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWd4ZWxmZWF8fHx8fGVufDB8fHw%3D",
+      "capabilities": [
+        "Natural language processing",
+        "Context-aware responses",
+        "Integration with external APIs"
+      ],
+      "applications": [
+        "Customer support",
+        "Information retrieval",
+        "Conversational interfaces"
+      ],
+      "implementation": [
+        {
+          "id": "i1",
+          "languageOrFramework": "Django",
+          "code": "// Replace with actual Django code implementation"
+        }
+      ]
+    },
+    // Add more models following the same structure
+  ]
+}
