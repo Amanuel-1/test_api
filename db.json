@@ -1,6 +1,7 @@
 {
     "users": {
       "id": "a1",
+        "rating":"5",
       "username": "Amanuel"
     },
     "models": [
@@ -9,6 +10,7 @@
         "name": "Image Classifier",
         "description": "Classifies images into predefined categories with high accuracy.",
         "creator": "a1",
+        "rating":"5",
         "coverImage": "https://images.unsplash.com/photo-1535054820380-92c41678b087?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8aCxxLHd8fHx8fHwxNzA5NzU0MjYy&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1080",
         "capabilities": [
           "Identify objects and scenes in images",
@@ -33,6 +35,7 @@
         "name": "Text Summarizer",
         "description": "Generates concise summaries of lengthy text passages, preserving key information.",
         "creator": "a1",
+        "rating":"5",
         "coverImage": "https://images.unsplash.com/photo-1532095608498-0718d887d70e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8Y3JvcCxmbSxoLHEsd3x8fHx8fDE3MDk3NTQzOTE&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1080",
         "capabilities": [
           "Extract main ideas and points",
@@ -57,6 +60,7 @@
         "name": "Music Generator",
         "description": "Composes original music pieces in various styles and genres based on user input.",
         "creator": "a1",
+        "rating":"5",
         "coverImage": "https://images.unsplash.com/photo-1541874514405-34811ec694af?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8Y3JvcCxmbSxoLHEsd3x8fHx8fDE3MDk3NTQ0NTY&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1080",
         "capabilities": [
           "Generate different musical elements like melodies, harmonies, and rhythms",
@@ -81,6 +85,7 @@
         "name": "Language Translator",
         "description": "Translates text between multiple languages with high accuracy.",
         "creator": "a1",
+        "rating":"4.7",
         "coverImage": "https://images.unsplash.com/photo-1534595798308-4c8e8de0a8c4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWd4ZWxmZWF8fHx8fGVufDB8fHw%3D",
         "capabilities": [
           "Supports translation for a wide range of languages",
@@ -105,6 +110,7 @@
         "name": "Speech Recognition",
         "description": "Converts spoken language into text with high accuracy.",
         "creator": "a1",
+        "rating":"4.9",
         "coverImage": "https://images.unsplash.com/photo-1533156906633-2f6d9449bd45?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWd4ZWxmZWF8fHx8fGVufDB8fHw%3D",
         "capabilities": [
           "Real-time transcription",
@@ -129,6 +135,7 @@
         "name": "Recommendation System",
         "description": "Provides personalized recommendations based on user behavior and preferences.",
         "creator": "a1",
+        "rating":"5",
         "coverImage": "https://images.unsplash.com/photo-1514450259271-138d6ad28089?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWd4ZWxmZWF8fHx8fGVufDB8fHw%3D",
         "capabilities": [
           "Collaborative and content-based filtering",
@@ -153,6 +160,7 @@
         "name": "Virtual Assistant",
         "description": "Performs tasks and provides information based on natural language commands.",
         "creator": "a1",
+        "rating":"4.6",
         "coverImage": "https://images.unsplash.com/photo-1560807707-8cc77767d783?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWd4ZWxmZWF8fHx8fGVufDB8fHw%3D",
         "capabilities": [
           "Speech recognition",
@@ -177,6 +185,7 @@
         "name": "Stock Price Predictor",
         "description": "Predicts future stock prices based on historical data and market trends.",
         "creator": "a1",
+        "rating":"3.9",
         "coverImage": "https://images.unsplash.com/photo-1549315752-465cbbd96eb1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWd4ZWxmZWF8fHx8fGVufDB8fHw%3D",
         "capabilities": [
           "Time series analysis",
@@ -201,6 +210,7 @@
         "name": "Face Recognition",
         "description": "Identifies and verifies individuals based on facial features.",
         "creator": "a1",
+        "rating":"4.4",
         "coverImage": "https://images.unsplash.com/photo-1541696430-08d5ca6a1ead?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWd4ZWxmZWF8fHx8fGVufDB8fHw%3D",
         "capabilities": [
           "Biometric authentication",
@@ -225,6 +235,7 @@
         "name": "Chatbot",
         "description": "Engages in natural language conversations and provides assistance.",
         "creator": "a1",
+        "rating":"4.9",
         "coverImage": "https://images.unsplash.com/photo-1598639777253-54d63a8dc7c9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWd4ZWxmZWF8fHx8fGVufDB8fHw%3D",
         "capabilities": [
           "Natural language processing",
