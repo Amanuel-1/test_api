@@ -1,18 +1,21 @@
 {
-  "users": {
-    "id": "a1",
-    "rating": "5",
-    "username": "Amanuel"
-  },
+  "users": [
+    {
+      "id": "a1",
+      "username": "Amanuel",
+      "rating": "5"
+    }
+  ],
   "models": [
     {
       "id": "m1",
       "name": "Image Classifier",
       "description": "Classifies images into predefined categories with high accuracy.",
       "creator": "a1",
-      "rating": "5",
-      "images": ["https://images.unsplash.com/photo-1532095608498-0718d887d70e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8Y3JvcCxmbSxoLHEsd3x8fHx8fDE3MDk3NTQzOTE&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1080","https://images.unsplash.com/photo-1532095608498-0718d887d70e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8Y3JvcCxmbSxoLHEsd3x8fHx8fDE3MDk3NTQzOTE&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1080","https://images.unsplash.com/photo-1532095608498-0718d887d70e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8Y3JvcCxmbSxoLHEsd3x8fHx8fDE3MDk3NTQzOTE&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1080","https://images.unsplash.com/photo-1532095608498-0718d887d70e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8Y3JvcCxmbSxoLHEsd3x8fHx8fDE3MDk3NTQzOTE&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1080","https://images.unsplash.com/photo-1532095608498-0718d887d70e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8Y3JvcCxmbSxoLHEsd3x8fHx8fDE3MDk3NTQzOTE&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1080","https://images.unsplash.com/photo-1598639777253-54d63a8dc7c9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWd4ZWxmZWF8fHx8fGVufDB8fHw%3D","https://images.unsplash.com/photo-1598639777253-54d63a8dc7c9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWd4ZWxmZWF8fHx8fGVufDB8fHw%3D",
-        "https://images.unsplash.com/photo-1535054820380-92c41678b087?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8aCxxLHd8fHx8fHwxNzA5NzU0MjYy&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1080"
+      "rating": "4.8",
+      "images": [
+        "https://example.com/image_classifier.jpg",
+        "https://example.com/image_classifier_2.jpg"
       ],
       "capabilities": [
         "Identify objects and scenes in images",
@@ -27,8 +30,21 @@
       "implementation": [
         {
           "id": "i1",
-          "languageOrFramework": "React.js",
-          "code": "// Replace with actual React.js code implementation"
+          "code": "import tensorflow as tf\n\n# Your TensorFlow image classification code here\n# Example: Define a neural network using TensorFlow for image classification.",
+          "language": "Python",
+          "framework": "TensorFlow"
+        },
+        {
+          "id": "i2",
+          "code": "// Your JavaScript image classification code here\n// Example: Implement image classification using JavaScript and a pre-trained model.",
+          "language": "JavaScript",
+          "framework": ""
+        },
+        {
+          "id": "i3",
+          "code": "#include <iostream>\n#include <opencv2/opencv.hpp>\n\nusing namespace cv;\nusing namespace std;\n\n// Your C++ image classification code here\n// Example: Use OpenCV to perform image classification in C++.",
+          "language": "C++",
+          "framework": "OpenCV"
         }
       ]
     },
@@ -37,9 +53,10 @@
       "name": "Text Summarizer",
       "description": "Generates concise summaries of lengthy text passages, preserving key information.",
       "creator": "a1",
-      "rating": "5",
-      "images": ["https://images.unsplash.com/photo-1532095608498-0718d887d70e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8Y3JvcCxmbSxoLHEsd3x8fHx8fDE3MDk3NTQzOTE&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1080","https://images.unsplash.com/photo-1532095608498-0718d887d70e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8Y3JvcCxmbSxoLHEsd3x8fHx8fDE3MDk3NTQzOTE&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1080","https://images.unsplash.com/photo-1532095608498-0718d887d70e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8Y3JvcCxmbSxoLHEsd3x8fHx8fDE3MDk3NTQzOTE&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1080","https://images.unsplash.com/photo-1532095608498-0718d887d70e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8Y3JvcCxmbSxoLHEsd3x8fHx8fDE3MDk3NTQzOTE&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1080","https://images.unsplash.com/photo-1532095608498-0718d887d70e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8Y3JvcCxmbSxoLHEsd3x8fHx8fDE3MDk3NTQzOTE&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1080","https://images.unsplash.com/photo-1598639777253-54d63a8dc7c9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWd4ZWxmZWF8fHx8fGVufDB8fHw%3D","https://images.unsplash.com/photo-1598639777253-54d63a8dc7c9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWd4ZWxmZWF8fHx8fGVufDB8fHw%3D",
-        "https://images.unsplash.com/photo-1532095608498-0718d887d70e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8Y3JvcCxmbSxoLHEsd3x8fHx8fDE3MDk3NTQzOTE&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1080"
+      "rating": "4.5",
+      "images": [
+        "https://example.com/text_summarizer.jpg",
+        "https://example.com/text_summarizer_2.jpg"
       ],
       "capabilities": [
         "Extract main ideas and points",
@@ -54,105 +71,79 @@
       "implementation": [
         {
           "id": "i1",
-          "languageOrFramework": "Python",
-          "code": "// Replace with actual Python code implementation"
+          "code": "# Your Python text summarization code here\n# Example: Use Natural Language Processing libraries to implement a text summarizer in Python.",
+          "language": "Python",
+          "framework": ""
+        },
+        {
+          "id": "i2",
+          "code": "// Your JavaScript text summarization code here\n// Example: Implement a text summarization algorithm using JavaScript.",
+          "language": "JavaScript",
+          "framework": ""
+        },
+        {
+          "id": "i3",
+          "code": "#include <iostream>\n#include <string>\n\nusing namespace std;\n\n// Your C++ text summarization code here\n// Example: Implement a text summarizer in C++ using string manipulation and analysis.",
+          "language": "C++",
+          "framework": ""
         }
       ]
     },
     {
       "id": "m3",
-      "name": "Music Generator",
-      "description": "Composes original music pieces in various styles and genres based on user input.",
+      "name": "Speech Recognition",
+      "description": "Converts spoken language into written text with high accuracy.",
       "creator": "a1",
-      "rating": "5",
-      "images": ["https://images.unsplash.com/photo-1532095608498-0718d887d70e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8Y3JvcCxmbSxoLHEsd3x8fHx8fDE3MDk3NTQzOTE&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1080","https://images.unsplash.com/photo-1532095608498-0718d887d70e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8Y3JvcCxmbSxoLHEsd3x8fHx8fDE3MDk3NTQzOTE&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1080","https://images.unsplash.com/photo-1532095608498-0718d887d70e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8Y3JvcCxmbSxoLHEsd3x8fHx8fDE3MDk3NTQzOTE&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1080","https://images.unsplash.com/photo-1532095608498-0718d887d70e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8Y3JvcCxmbSxoLHEsd3x8fHx8fDE3MDk3NTQzOTE&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1080","https://images.unsplash.com/photo-1532095608498-0718d887d70e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8Y3JvcCxmbSxoLHEsd3x8fHx8fDE3MDk3NTQzOTE&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1080","https://images.unsplash.com/photo-1532095608498-0718d887d70e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8Y3JvcCxmbSxoLHEsd3x8fHx8fDE3MDk3NTQzOTE&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1080","https://images.unsplash.com/photo-1598639777253-54d63a8dc7c9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWd4ZWxmZWF8fHx8fGVufDB8fHw%3D","https://images.unsplash.com/photo-1598639777253-54d63a8dc7c9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWd4ZWxmZWF8fHx8fGVufDB8fHw%3D",
-        "https://images.unsplash.com/photo-1541874514405-34811ec694af?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8Y3JvcCxmbSxoLHEsd3x8fHx8fDE3MDk3NTQ0NTY&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1080"
+      "rating": "4.6",
+      "images": [
+        "https://example.com/speech_recognition.jpg",
+        "https://example.com/speech_recognition_2.jpg"
       ],
       "capabilities": [
-        "Generate different musical elements like melodies, harmonies, and rhythms",
-        "Adapt to different tempos and moods",
-        "Learn from user preferences and feedback"
+        "Real-time transcription",
+        "Support for multiple languages",
+        "Adaptation to diverse audio environments"
       ],
       "applications": [
-        "Film and video scoring",
-        "Personalized music recommendations",
-        "Interactive music experiences"
+        "Voice assistants",
+        "Transcription services",
+        "Accessibility features"
       ],
       "implementation": [
         {
           "id": "i1",
-          "languageOrFramework": "TensorFlow",
-          "code": "// Replace with actual TensorFlow code implementation"
+          "code": "// Your Python speech recognition code here\n// Example: Implement speech-to-text conversion using a Python library.",
+          "language": "Python",
+          "framework": ""
+        },
+        {
+          "id": "i2",
+          "code": "// Your Java speech recognition code here\n// Example: Develop a speech recognition system in Java using available libraries.",
+          "language": "Java",
+          "framework": ""
+        },
+        {
+          "id": "i3",
+          "code": "// Your C# speech recognition code here\n// Example: Use C# to create a speech-to-text application with Microsoft Speech SDK.",
+          "language": "C#",
+          "framework": ""
         }
       ]
     },
     {
       "id": "m4",
-      "name": "Language Translator",
-      "description": "Translates text between multiple languages with high accuracy.",
-      "creator": "a1",
-      "rating": "4.7",
-      "images": ["https://images.unsplash.com/photo-1532095608498-0718d887d70e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8Y3JvcCxmbSxoLHEsd3x8fHx8fDE3MDk3NTQzOTE&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1080","https://images.unsplash.com/photo-1532095608498-0718d887d70e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8Y3JvcCxmbSxoLHEsd3x8fHx8fDE3MDk3NTQzOTE&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1080","https://images.unsplash.com/photo-1532095608498-0718d887d70e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8Y3JvcCxmbSxoLHEsd3x8fHx8fDE3MDk3NTQzOTE&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1080","https://images.unsplash.com/photo-1532095608498-0718d887d70e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8Y3JvcCxmbSxoLHEsd3x8fHx8fDE3MDk3NTQzOTE&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1080","https://images.unsplash.com/photo-1532095608498-0718d887d70e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8Y3JvcCxmbSxoLHEsd3x8fHx8fDE3MDk3NTQzOTE&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1080","https://images.unsplash.com/photo-1598639777253-54d63a8dc7c9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWd4ZWxmZWF8fHx8fGVufDB8fHw%3D","https://images.unsplash.com/photo-1598639777253-54d63a8dc7c9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWd4ZWxmZWF8fHx8fGVufDB8fHw%3D",
-        "https://images.unsplash.com/photo-1534595798308-4c8e8de0a8c4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWd4ZWxmZWF8fHx8fGVufDB8fHw%3D"
-      ],
-      "capabilities": [
-        "Supports translation for a wide range of languages",
-        "Maintains contextual accuracy",
-        "Integrates with various applications"
-      ],
-      "applications": [
-        "Global communication",
-        "Travel assistance",
-        "Cross-language content understanding"
-      ],
-      "implementation": [
-        {
-          "id": "i1",
-          "languageOrFramework": "Java",
-          "code": "// Replace with actual Java code implementation"
-        }
-      ]
-    },
-    {
-      "id": "m5",
-      "name": "Speech Recognition",
-      "description": "Converts spoken language into text with high accuracy.",
-      "creator": "a1",
-      "rating": "4.9",
-      "images": ["https://images.unsplash.com/photo-1532095608498-0718d887d70e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8Y3JvcCxmbSxoLHEsd3x8fHx8fDE3MDk3NTQzOTE&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1080","https://images.unsplash.com/photo-1532095608498-0718d887d70e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8Y3JvcCxmbSxoLHEsd3x8fHx8fDE3MDk3NTQzOTE&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1080","https://images.unsplash.com/photo-1532095608498-0718d887d70e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8Y3JvcCxmbSxoLHEsd3x8fHx8fDE3MDk3NTQzOTE&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1080","https://images.unsplash.com/photo-1532095608498-0718d887d70e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8Y3JvcCxmbSxoLHEsd3x8fHx8fDE3MDk3NTQzOTE&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1080","https://images.unsplash.com/photo-1532095608498-0718d887d70e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8Y3JvcCxmbSxoLHEsd3x8fHx8fDE3MDk3NTQzOTE&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1080","https://images.unsplash.com/photo-1598639777253-54d63a8dc7c9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWd4ZWxmZWF8fHx8fGVufDB8fHw%3D","https://images.unsplash.com/photo-1598639777253-54d63a8dc7c9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWd4ZWxmZWF8fHx8fGVufDB8fHw%3D",
-        "https://images.unsplash.com/photo-1533156906633-2f6d9449bd45?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWd4ZWxmZWF8fHx8fGVufDB8fHw%3D"
-      ],
-      "capabilities": [
-        "Real-time transcription",
-        "Supports multiple languages",
-        "Works in noisy environments"
-      ],
-      "applications": [
-        "Voice assistants",
-        "Transcription services",
-        "Accessibility applications"
-      ],
-      "implementation": [
-        {
-          "id": "i1",
-          "languageOrFramework": "C#",
-          "code": "// Replace with actual C# code implementation"
-        }
-      ]
-    },
-    {
-      "id": "m6",
       "name": "Recommendation System",
-      "description": "Provides personalized recommendations based on user behavior and preferences.",
+      "description": "Provides personalized recommendations based on user preferences and behavior.",
       "creator": "a1",
-      "rating": "5",
-      "images": ["https://images.unsplash.com/photo-1532095608498-0718d887d70e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8Y3JvcCxmbSxoLHEsd3x8fHx8fDE3MDk3NTQzOTE&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1080","https://images.unsplash.com/photo-1532095608498-0718d887d70e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8Y3JvcCxmbSxoLHEsd3x8fHx8fDE3MDk3NTQzOTE&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1080","https://images.unsplash.com/photo-1532095608498-0718d887d70e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8Y3JvcCxmbSxoLHEsd3x8fHx8fDE3MDk3NTQzOTE&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1080","https://images.unsplash.com/photo-1532095608498-0718d887d70e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8Y3JvcCxmbSxoLHEsd3x8fHx8fDE3MDk3NTQzOTE&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1080","https://images.unsplash.com/photo-1532095608498-0718d887d70e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8Y3JvcCxmbSxoLHEsd3x8fHx8fDE3MDk3NTQzOTE&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1080","https://images.unsplash.com/photo-1598639777253-54d63a8dc7c9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWd4ZWxmZWF8fHx8fGVufDB8fHw%3D","https://images.unsplash.com/photo-1598639777253-54d63a8dc7c9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWd4ZWxmZWF8fHx8fGVufDB8fHw%3D",
-        "https://images.unsplash.com/photo-1514450259271-138d6ad28089?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWd4ZWxmZWF8fHx8fGVufDB8fHw%3D"
+      "rating": "4.3",
+      "images": [
+        "https://example.com/recommendation_system.jpg",
+        "https://example.com/recommendation_system_2.jpg"
       ],
       "capabilities": [
-        "Collaborative and content-based filtering",
-        "Adapts to changing user preferences",
-        "Handles large datasets efficiently"
+        "User profiling for accurate suggestions",
+        "Integration with various content platforms",
+        "Continuous learning and adaptation"
       ],
       "applications": [
         "E-commerce product recommendations",
@@ -162,116 +153,62 @@
       "implementation": [
         {
           "id": "i1",
-          "languageOrFramework": "Scala",
-          "code": "// Replace with actual Scala code implementation"
+          "code": "// Your Python recommendation system code here\n// Example: Implement a collaborative filtering recommendation system in Python.",
+          "language": "Python",
+          "framework": ""
+        },
+        {
+          "id": "i2",
+          "code": "// Your Scala recommendation system code here\n// Example: Build a recommendation engine using Scala and Apache Spark.",
+          "language": "Scala",
+          "framework": "Apache Spark"
+        },
+        {
+          "id": "i3",
+          "code": "// Your R recommendation system code here\n// Example: Develop a recommendation system in R using collaborative filtering.",
+          "language": "R",
+          "framework": ""
         }
       ]
     },
     {
-      "id": "m7",
-      "name": "Virtual Assistant",
-      "description": "Performs tasks and provides information based on natural language commands.",
+      "id": "m5",
+      "name": "Object Detection",
+      "description": "Identifies and locates objects within images or video frames.",
       "creator": "a1",
-      "rating": "4.6",
-      "images": ["https://images.unsplash.com/photo-1532095608498-0718d887d70e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8Y3JvcCxmbSxoLHEsd3x8fHx8fDE3MDk3NTQzOTE&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1080","https://images.unsplash.com/photo-1532095608498-0718d887d70e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8Y3JvcCxmbSxoLHEsd3x8fHx8fDE3MDk3NTQzOTE&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1080","https://images.unsplash.com/photo-1532095608498-0718d887d70e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8Y3JvcCxmbSxoLHEsd3x8fHx8fDE3MDk3NTQzOTE&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1080","https://images.unsplash.com/photo-1532095608498-0718d887d70e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8Y3JvcCxmbSxoLHEsd3x8fHx8fDE3MDk3NTQzOTE&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1080","https://images.unsplash.com/photo-1532095608498-0718d887d70e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8Y3JvcCxmbSxoLHEsd3x8fHx8fDE3MDk3NTQzOTE&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1080","https://images.unsplash.com/photo-1598639777253-54d63a8dc7c9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWd4ZWxmZWF8fHx8fGVufDB8fHw%3D","https://images.unsplash.com/photo-1598639777253-54d63a8dc7c9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWd4ZWxmZWF8fHx8fGVufDB8fHw%3D",
-        "https://images.unsplash.com/photo-1560807707-8cc77767d783?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWd4ZWxmZWF8fHx8fGVufDB8fHw%3D"
+      "rating": "4.7",
+      "images": [
+        "https://example.com/object_detection.jpg",
+        "https://example.com/object_detection_2.jpg"
       ],
       "capabilities": [
-        "Speech recognition",
-        "Task automation",
-        "Integration with various services"
+        "Accurate object localization",
+                  "Real-time processing",
+        "Scalability for various use cases"
       ],
       "applications": [
-        "Scheduling appointments",
-        "Weather updates",
-        "Smart home control"
+        "Surveillance systems",
+        "Autonomous vehicles",
+        "Augmented reality"
       ],
       "implementation": [
         {
           "id": "i1",
-          "languageOrFramework": "Node.js",
-          "code": "// Replace with actual Node.js code implementation"
-        }
-      ]
-    },
-    {
-      "id": "m8",
-      "name": "Stock Price Predictor",
-      "description": "Predicts future stock prices based on historical data and market trends.",
-      "creator": "a1",
-      "rating": "3.9",
-      "images": ["https://images.unsplash.com/photo-1532095608498-0718d887d70e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8Y3JvcCxmbSxoLHEsd3x8fHx8fDE3MDk3NTQzOTE&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1080","https://images.unsplash.com/photo-1532095608498-0718d887d70e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8Y3JvcCxmbSxoLHEsd3x8fHx8fDE3MDk3NTQzOTE&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1080","https://images.unsplash.com/photo-1532095608498-0718d887d70e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8Y3JvcCxmbSxoLHEsd3x8fHx8fDE3MDk3NTQzOTE&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1080","https://images.unsplash.com/photo-1532095608498-0718d887d70e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8Y3JvcCxmbSxoLHEsd3x8fHx8fDE3MDk3NTQzOTE&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1080","https://images.unsplash.com/photo-1532095608498-0718d887d70e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8Y3JvcCxmbSxoLHEsd3x8fHx8fDE3MDk3NTQzOTE&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1080","https://images.unsplash.com/photo-1598639777253-54d63a8dc7c9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWd4ZWxmZWF8fHx8fGVufDB8fHw%3D","https://images.unsplash.com/photo-1598639777253-54d63a8dc7c9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWd4ZWxmZWF8fHx8fGVufDB8fHw%3D",
-        "https://images.unsplash.com/photo-1549315752-465cbbd96eb1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWd4ZWxmZWF8fHx8fGVufDB8fHw%3D"
-      ],
-      "capabilities": [
-        "Time series analysis",
-        "Machine learning algorithms",
-        "Real-time market data integration"
-      ],
-      "applications": [
-        "Financial investment",
-        "Portfolio management",
-        "Market trend analysis"
-      ],
-      "implementation": [
+          "code": "import tensorflow as tf\n\n# Your TensorFlow object detection code here\n# Example: Implement an object detection model using TensorFlow's Object Detection API.",
+          "language": "Python",
+          "framework": "TensorFlow"
+        },
         {
-          "id": "i1",
-          "languageOrFramework": "R",
-          "code": "// Replace with actual R code implementation"
-        }
-      ]
-    },
-    {
-      "id": "m9",
-      "name": "Face Recognition",
-      "description": "Identifies and verifies individuals based on facial features.",
-      "creator": "a1",
-      "rating": "4.4",
-      "images": ["https://images.unsplash.com/photo-1532095608498-0718d887d70e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8Y3JvcCxmbSxoLHEsd3x8fHx8fDE3MDk3NTQzOTE&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1080","https://images.unsplash.com/photo-1532095608498-0718d887d70e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8Y3JvcCxmbSxoLHEsd3x8fHx8fDE3MDk3NTQzOTE&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1080","https://images.unsplash.com/photo-1532095608498-0718d887d70e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8Y3JvcCxmbSxoLHEsd3x8fHx8fDE3MDk3NTQzOTE&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1080","https://images.unsplash.com/photo-1532095608498-0718d887d70e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8Y3JvcCxmbSxoLHEsd3x8fHx8fDE3MDk3NTQzOTE&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1080","https://images.unsplash.com/photo-1532095608498-0718d887d70e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8Y3JvcCxmbSxoLHEsd3x8fHx8fDE3MDk3NTQzOTE&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1080","https://images.unsplash.com/photo-1598639777253-54d63a8dc7c9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWd4ZWxmZWF8fHx8fGVufDB8fHw%3D","https://images.unsplash.com/photo-1598639777253-54d63a8dc7c9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWd4ZWxmZWF8fHx8fGVufDB8fHw%3D",
-        "https://images.unsplash.com/photo-1541696430-08d5ca6a1ead?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWd4ZWxmZWF8fHx8fGVufDB8fHw%3D"
-      ],
-      "capabilities": [
-        "Biometric authentication",
-        "Works in varying lighting conditions",
-        "Integration with security systems"
-      ],
-      "applications": [
-        "Access control systems",
-        "Criminal identification",
-        "User authentication"
-      ],
-      "implementation": [
+          "id": "i2",
+          "code": "// Your C++ object detection code here\n// Example: Develop an object detection application in C++ using OpenCV.",
+          "language": "C++",
+          "framework": "OpenCV"
+        },
         {
-          "id": "i1",
-          "languageOrFramework": "OpenCV",
-          "code": "// Replace with actual OpenCV code implementation"
-        }
-      ]
-    },
-    {
-      "id": "m10",
-      "name": "Chatbot",
-      "description": "Engages in natural language conversations and provides assistance.",
-      "creator": "a1",
-      "rating": "4.9",
-      "images": ["https://images.unsplash.com/photo-1532095608498-0718d887d70e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8Y3JvcCxmbSxoLHEsd3x8fHx8fDE3MDk3NTQzOTE&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1080","https://images.unsplash.com/photo-1532095608498-0718d887d70e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8Y3JvcCxmbSxoLHEsd3x8fHx8fDE3MDk3NTQzOTE&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1080","https://images.unsplash.com/photo-1532095608498-0718d887d70e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8Y3JvcCxmbSxoLHEsd3x8fHx8fDE3MDk3NTQzOTE&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1080","https://images.unsplash.com/photo-1532095608498-0718d887d70e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8Y3JvcCxmbSxoLHEsd3x8fHx8fDE3MDk3NTQzOTE&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1080","https://images.unsplash.com/photo-1532095608498-0718d887d70e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxfDB8MXxyYW5kb218MHx8Y3JvcCxmbSxoLHEsd3x8fHx8fDE3MDk3NTQzOTE&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1080","https://images.unsplash.com/photo-1598639777253-54d63a8dc7c9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWd4ZWxmZWF8fHx8fGVufDB8fHw%3D","https://images.unsplash.com/photo-1598639777253-54d63a8dc7c9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWd4ZWxmZWF8fHx8fGVufDB8fHw%3D",
-        "https://images.unsplash.com/photo-1598639777253-54d63a8dc7c9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWd4ZWxmZWF8fHx8fGVufDB8fHw%3D"
-      ],
-      "capabilities": [
-        "Natural language processing",
-        "Context-aware responses",
-        "Integration with external APIs"
-      ],
-      "applications": [
-        "Customer support",
-        "Information retrieval",
-        "Conversational interfaces"
-      ],
-      "implementation": [
-        {
-          "id": "i1",
-          "languageOrFramework": "Django",
-          "code": "// Replace with actual Django code implementation"
+          "id": "i3",
+          "code": "// Your Java object detection code here\n// Example: Implement object detection in Java using a pre-trained model.",
+          "language": "Java",
+          "framework": ""
         }
       ]
     }
